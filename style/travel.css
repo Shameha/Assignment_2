@@ -1,0 +1,138 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+ *{
+    font-family: 'Mulish';
+ }
+ .btn-primary{
+   background: #FF5400;
+   border-radius: 8px;
+   border: 8px;
+   padding: 15px 35px;
+   color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 800;
+
+ }
+ nav{
+    padding: 50px 240px;
+ }
+ .travel_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .travel_logo  ul{
+    display: flex;
+ }
+ .travel_logo li{
+    list-style: none;
+    margin-right: 44px;
+ }
+ .travel_logo li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+
+ }
+ .travel_logo,.logo{
+    display: flex;
+    gap: 5px;
+ }
+ .World{
+    color: #FF5400;  
+ }
+ .travel_logo h2{
+    color: #131318;
+font-size: 36px;
+font-weight: 800;
+ }
+ /*banner start*/
+.banner{
+   padding: 106px 240px;
+   position: relative;
+}
+.banner,.text{
+   top:0;
+ border-radius: 16px;
+ background: linear-gradient()
+ padding:10px;
+}
+
+
+/*our popular tours*/
+.container_2{
+   display: flex;
+   margin-top: 130px;
+   gap: 100px;
+   padding: 207px;
+   
+}
+.container_2 h2{
+   color: #131318;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 800;
+}
+.container_2 p{
+   width: 525px;
+   color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
+/* 162.5% */
+}
+.container_2 li{
+   width: 525px;
+   color: rgba(19, 19, 24, 0.70);
+   font-family: Mulish;
+   font-size: 1rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px; 
+
+}
+.destination{
+   text-align: center;
+}
+.destination h2{
+   color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-top: auto;
+}
+.destination p{
+   color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin: 15px; 
+}
+.Images{
+   align-items: center;
+   padding: 20px 200px;
+   gap: 24px;
+   margin: 0 auto;
+   top: 200px;
+   width: 100%;
+   height: 100%;
+}
+
+/* main section*/
+
+
+/* responsive*/
+@media screen and (max-width:576px){
+   .container_2,
+   .container,.destination{
+     flex-direction: column;
+
+   }
+   .container_2 img{
+    height: 540px: ;
+    width: 550px;
+   }
+}
